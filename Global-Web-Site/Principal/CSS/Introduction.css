@@ -358,6 +358,10 @@
         clip-path: ellipse(120% 50% at 50% 26%);
     }
 
+    .home2::before{
+        clip-path: ellipse(120% 50% at 50% 26%);
+    }
+
     .end{
         padding-top: 120px;
         padding-bottom: 80px;
@@ -366,6 +370,10 @@
 
 @media screen and (max-height: 900px){
     .home::before{
+        clip-path: polygon(100% 0, 100% 80%, 50% 82%, 0 80%, 0 0);
+    }
+
+    .home2::before{
         clip-path: polygon(100% 0, 100% 80%, 50% 82%, 0 80%, 0 0);
     }
 
@@ -384,6 +392,10 @@
         clip-path: polygon(100% 0, 100% 80%, 50% 82%, 0 80%, 0 0);
     }
 
+    .home2::before{
+        clip-path: polygon(100% 0, 100% 80%, 50% 82%, 0 80%, 0 0);
+    }
+
     .end{
         padding-top: 90px;
         padding-bottom: 120px;
@@ -395,6 +407,10 @@
         clip-path: ellipse(120% 50% at 50% 23%);
     }
 
+    .home2::before{
+        clip-path: ellipse(120% 50% at 50% 23%);
+    }
+
     .end{
         padding-top: 60px;
         padding-bottom: 120px;
@@ -403,6 +419,10 @@
 
 @media screen and (max-height: 700px){
     .home::before{
+        clip-path: polygon(100% 0, 100% 74%, 50% 75%, 0 74%, 0 0);
+    }
+
+    .home2::before{
         clip-path: polygon(100% 0, 100% 74%, 50% 75%, 0 74%, 0 0);
     }
     .end{
@@ -441,6 +461,10 @@
         clip-path: ellipse(120% 40% at 50% 35%);
     }
 
+    .home2::before{
+        clip-path: ellipse(120% 40% at 50% 35%);
+    }
+
     .end{
         padding-top: 60px;
         padding-bottom: 120px;
@@ -449,6 +473,10 @@
 
 @media screen and (max-width: 600px){
     .home::before{
+        clip-path: polygon(100% 0, 100% 74%, 50% 75%, 0 74%, 0 0);
+    }
+
+    .home2::before{
         clip-path: polygon(100% 0, 100% 74%, 50% 75%, 0 74%, 0 0);
     }
 
