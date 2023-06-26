@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;1,700&family=Gloock&family=Josefin+Sans:ital@0;1&family=Poppins:wght@300;400;600;700&family=Roboto+Slab:wght@100;200;300;400;600;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,700;1,900&family=Shantell+Sans:wght@300;400;700&display=swap');
+
+.footer{
+    width: 100%;
+    height: max-content;
+    padding: 0;
+    background-color: #1d1d1d;
+    z-index: 10;
+    position: relative;
+    display: grid;
+}
+
+.infoNav{
+    display: grid;
+}
+
+.headerEnd{
+    width: 100%;
+    height: max-content;
+    background-color: #252525;
+}
+
+.options{
+    list-style: none;
+    color: #bdbdbd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    gap: 1em;
+}
+
+.navEnd{
+    width: 100%;
+    height: 100%;
+    display: grid;
+}
+
+.blankPage{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    transition: .3s;
+    margin: 20px 0 20px 0;
+}
+
+.blankPage:hover{
+    background-color: #4d4d4d;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.blankPage:hover .buttondown{
+    color: #ffffff;
+}
+
+.buttondown{
+    transition: .3s;
+    margin: 0;
+}
+
+.infoList{
+    list-style: none;
+    color: #eeeeee;
+    display: flex;
+    padding: 50px 250px 50px 250px;
+}
+
+.textInfo{
+    list-style: none;
+    padding: 0;
+}
+
+.listinfo2{
+    width: fit-content;
+}
+
+.Team{
+    width: 50%;
+    display: grid;
+    align-items: center;
+}
+
+.Media{
+    width: 50%;
+    display: grid;
+    align-items: center;
+}
+
+.listinfoT{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin: 50px;
+    border-bottom: 1px solid #aaaaaa;
+
+}
+
+.listinfo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 100px 0 100px;
+}
+
+.ListText{
+    list-style: none;
+    color: #acacac;
+    padding: 0;
+    display: flex;
+    gap: 5em ;
+    justify-content: center;
+}
+
+.space{
+    display: grid;
+}
+
+.pageweb2{
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-style: italic;
+    color: #dddddd;
+}
+
+.teamlist{
+    list-style: none;
+    padding: 0;
+    float: right;
+}
+
+.pageweb{
+    font-weight: 600;
+    color: #c5c5c5;
+}
+
+.teaminformation{
+    padding: 3px;
+    width: max-content;
+}
+
+.copyright{
+    font-size: 12px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    color: #c5c5c5;
+}
+
+.copyrightimage{
+    width: 12px;
+}
+
+.social{
+    list-style: none;
+    padding: 0;
+    float: right;
+}
+
+.Icons{
+    height: 15px;
+    padding-right: 10px;
+}
+
+.listmedia{
+    width: max-content;
+    padding: 5px 0 5px 0;
+}
+
+.Titles{
+    list-style: none;
+    padding: 0 0 20px 0;
+    display: flex;
+    gap: 5em;
+}
+
+.titlebox1{
+    width: 30%;
+}
+
+.titlebox2{
+    padding-left: 3px;
+}
+
+.box1{
+    padding: 0 0 20px 0;
+    list-style: none;
+}
+
+.buttondown{
+    color: #c5c5c5;
+}
+
+@media screen and (max-width: 600px){
+    .options{
+        flex-direction: column;
+    }
+
+    .separatorTxt{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .ListText{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .listinfo{
+        padding: 0 50px 0 50px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .listinfo{
+        padding: 0 20px 0 20px;
+    }
+}

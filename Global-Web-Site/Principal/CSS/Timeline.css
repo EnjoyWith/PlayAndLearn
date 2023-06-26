@@ -1,0 +1,380 @@
+.timeLine{
+    width: 100%;
+    height: max-content;
+    font-family: 'IBM Plex Sans', sans-serif;
+    padding: 200px 0 200px 0;
+    position: relative;
+}
+
+.infoText{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4em;
+    margin: 0 10% 0 10%; 
+    opacity: 0;
+    transition: .5s ease;
+    top: 15px;
+    position: relative;
+}
+
+.animationtxt2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4em;
+    margin: 0 10% 0 10%; 
+    opacity: 1;
+    transition: .5s ease;
+    top: 0;
+}
+
+.txtlg{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.textLarge{
+    width: 1000px;
+}
+
+.verticalTimeLine{
+    display: flex;
+    flex-direction: column;
+    gap: 5em;
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.lineContent{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+}
+
+.tittleLine{
+    font-size: 20px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.textLine{
+    width: 350px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.textLine2{
+    width: 350px;
+    height: max-content;
+    font-size: 13px;
+    text-align: center;
+}
+
+.textinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.circleContent1{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-image: linear-gradient(180deg, #ffffff00 0%,#ffffff00 100%), url('../IMAGES/wave-haikei2.svg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: rotate1 8s infinite linear;
+    transform: rotate(50deg);
+}
+
+.circleContent2{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-image: linear-gradient(180deg, #ffffff00 0%,#ffffff00 100%), url('../IMAGES/wave-haikei2.svg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: rotate2 8s infinite linear;
+    transform: rotate(-120deg);
+}
+
+@keyframes rotate1 {
+    0%{
+        transform: rotate(50deg);
+    }
+    15%{
+        transform: rotate(50deg);
+    }
+    33%{
+        transform: rotate(55deg);
+    }
+    50%{
+        transform: rotate(55deg);
+    }
+    66%{
+        transform: rotate(45deg);
+    }
+    100%{
+        transform: rotate(50deg);
+    }
+}
+
+@keyframes rotate2 {
+    0%{
+        transform: rotate(-120deg);
+    }
+    15%{
+        transform: rotate(-120deg);
+    }
+    33%{
+        transform: rotate(-125deg);
+    }
+    50%{
+        transform: rotate(-125deg);
+    }
+    66%{
+        transform: rotate(-115deg);
+    }
+    100%{
+        transform: rotate(-120deg);
+    }
+}
+
+.circleWhite{
+    width: 125px;
+    height: 125px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.imgCenter{
+    width: 75px;
+    height: 75px;
+    transform: rotate(-50deg);
+    animation: rotateimg1 8s infinite linear;
+}
+
+.imgCenter2{
+    width: 75px;
+    height: 75px;
+    transform: rotate(120deg);
+    animation: rotateimg2 8s infinite linear;
+}
+
+@keyframes rotateimg1 {
+    0%{
+        transform: rotate(-50deg);
+    }
+    15%{
+        transform: rotate(-50deg);
+    }
+    33%{
+        transform: rotate(-55deg);
+    }
+    50%{
+        transform: rotate(-55deg);
+    }
+    66%{
+        transform: rotate(-45deg);
+    }
+    100%{
+        transform: rotate(-50deg);
+    }
+}
+
+@keyframes rotateimg2 {
+    0%{
+        transform: rotate(120deg);
+    }
+    15%{
+        transform: rotate(120deg);
+    }
+    33%{
+        transform: rotate(125deg);
+    }
+    50%{
+        transform: rotate(125deg);
+    }
+    66%{
+        transform: rotate(115deg);
+    }
+    100%{
+        transform: rotate(120deg);
+    }
+}
+
+@media screen and (max-width: 900px){
+    .circleContent1{
+        width: 125px;
+        height: 125px;
+    }
+    
+    .circleContent2{
+        width: 125px;
+        height: 125px;
+    }
+
+    .circleWhite{
+        width: 100px;
+        height: 100px;
+    }
+
+    .tittleLine{
+        font-size: 18px;
+        padding-top: 35px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    
+    .textLine{
+        width: 300px;
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .circleContent1{
+        width: 75px;
+        height: 75px;
+    }
+    
+    .circleContent2{
+        width: 75px;
+        height: 75px;
+    }
+
+    .circleWhite{
+        width: 60px;
+        height: 60px;
+    }
+
+    .tittleLine{
+        font-size: 16px;
+        padding-top: 35px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    
+    .textLine{
+        width: 250px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .imgCenter{
+        width: 35px;
+        height: 35px;
+    }
+    
+    .imgCenter2{
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .circleContent1{
+        width: 125px;
+        height: 125px;
+    }
+    
+    .circleContent2{
+        width: 125px;
+        height: 125px;
+    }
+
+    .circleWhite{
+        width: 100px;
+        height: 100px;
+    }
+
+    .tittleLine{
+        font-size: 18px;
+        padding-top: 35px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    
+    .textLine{
+        width: 300px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .imgCenter{
+        width: 60px;
+        height: 60px;
+    }
+    
+    .imgCenter2{
+        width: 60px;
+        height: 60px;
+    }
+
+    .lineContent{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .circleContent1{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .circleContent2{
+        width: 100px;
+        height: 100px;
+    }
+
+    .circleWhite{
+        width: 75px;
+        height: 75px;
+    }
+
+    .tittleLine{
+        font-size: 15px;
+        padding-top: 35px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    
+    .textLine{
+        width: 200px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .imgCenter{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .imgCenter2{
+        width: 40px;
+        height: 40px;
+    }
+
+    .lineContent{
+        display: flex;
+        flex-direction: column;
+    }
+}

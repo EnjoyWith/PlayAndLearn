@@ -1,0 +1,47 @@
+.separator{
+    position: relative;
+    display: flex;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    overflow: hidden;
+}
+
+.separator2{
+    position: relative;
+    display: flex;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+ 
+.logoseparator{
+    width: 50px;
+    padding: 0 10px 0 10px;
+}
+
+.line{
+    width: 850px;
+    height: 10px;
+    padding: 0 20px 0 20px;
+    color: #838383;
+}
+
+.lineSolo{
+    width: 700px;
+    height: 10px;
+    padding: 0;
+    color: #838383; 
+}
+
+.separation{
+    padding: 0 5% 0 5%;
+}
+
+.separation2{
+    padding: 0 5% 50px 5%;
+}

@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(180deg, #ffffff00 0%,#ffffff00 100%), url('../IMAGES/blob-scene-haikei.svg');
+    background-size: cover;
+}
+  
+h1 {
+    text-align: center;
+    color: #f0f0f0;
+    padding-top: 50px;
+    font-size: 70px;
+    padding-bottom: 150px;
+}
+  
+#question {
+    font-size: 20px;
+    margin-bottom: 50px;
+    padding-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-top: 2px solid #ffd900;
+    color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .5s ease;
+}
+  
+#options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+  
+.option {
+    width: 200px;
+    padding: 10px;
+    margin: 5px;
+    background-color: #dff9ff;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+    transition: .4s ease;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform: translateY(100px);
+}
+  
+.option:hover {
+    background-color: #9ab4b9;
+    transition: .4s ease;
+}
+  
+#result {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 150px;
+    color: #ffd900;
+    font-size: 60px;
+    opacity: 0;
+    transition: opacity .5s ease;
+}
+
+.tittleautorice{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 0;
+    padding: 30px 80px;
+    border-radius: 50px;
+    background-color: #c4a600;
+    color: #000000;
+    transition: .4s ease;
+}
+
+.tittleautorice:hover{
+    background-color: #f1cd00;
+    color: #000000;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+#toggleMusicButton{
+    background-color: #c4a600;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: none;
+    transition: .4s ease;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#toggleMusicButton:hover{
+    background-color: #e9c600;
+    cursor: pointer;
+    transition: .4s ease;
+}
+
+@media screen and (max-width: 700px){
+    #question {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .tittleautorice{
+        font-size: 40px;
+        font-weight: 600;
+        padding: 20px 50px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    h1 {
+        font-size: 50px;
+    }
+    .tittleautorice{
+        font-size: 30px;
+        font-weight: 600;
+        padding: 20px 30px;
+    }
+}
